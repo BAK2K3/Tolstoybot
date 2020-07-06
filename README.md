@@ -1,6 +1,6 @@
 # Tolstoybot
 
-Tolstoybot is a deep experimental stateful Recurrent Neural Network for text generation, in the style of Shakespeare!
+Tolstoybot is a deep experimental stateful Recurrent Neural Network for text generation, in the style of Shakespeare! Please visit <https://baknet.herokuapp.com/rnn/tolstoybot> for an online demonstration of this model. 
 
 ## Installation
 
