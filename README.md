@@ -61,7 +61,5 @@ Example test and train .h5 files have been provided. These have been trained on 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
-
 ## Author
 My name is Benjamin Kavanagh, and I am an aspiring python developer. Please contact me at benjamin.a.kavanagh@gmail.com for any queries. 
