@@ -1,6 +1,8 @@
 # Tolstoybot
 
-Tolstoybot is a deep experimental stateful Recurrent Neural Network for text generation, in the style of Tolstoy! Please visit <https://baknet.herokuapp.com/rnn/tolstoybot> for an online demonstration of this model. 
+Tolstoybot is a deep experimental stateful Recurrent Neural Network for text generation, in the style of Tolstoy! Please visit <https://baknet.herokuapp.com/rnn/tolstoybot> for an online demonstration of this model, or try the online binder!
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BAK2K3/Tolstoybot/master) 
 
 ## Installation
 
