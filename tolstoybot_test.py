@@ -1,9 +1,16 @@
 #imports
 import os
-#Removed non-critical logs from TF
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
 import argparse
 import sys
+
+#Removed non-critical logs from TF
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+ 
+#Check for testing model
+testing_file = os.path.isfile('tolstoybot_test.h5')
+if not testing_file:
+    print("Tolstoybot testing file not found! Please train use tolstoybot_train.py or use the example model to continue!")
+    sys.exit(1)
 
 #Parse arguments text generation
 parser = argparse.ArgumentParser()
@@ -11,6 +18,7 @@ parser.add_argument(dest='start_seed', help="Text to begin generation from!", ty
 parser.add_argument(dest='num_generate', help="Amount of characters to generate! (Between 1 and 2000)", type=int, default=500)
 parser.add_argument(dest='temperature', help="Temperature of text! (between 1 and 200)", type=int, default=100)
 args = parser.parse_args()
+
 #Set the arguments to the required variables
 start_seed = args.start_seed
 num_generate = args.num_generate
